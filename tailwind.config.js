@@ -2,7 +2,12 @@
 module.exports = {
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                "photo-bg": "url('/src/asset/photo-bg.jpg')",
+            
+            },
+        },
     },
     daisyui: {
         themes: [

@@ -1,0 +1,29 @@
+.photo-shape {
+    border-radius: 0px;
+    background: #1f2125;
+    box-shadow: 41px 41px 82px #1b1c20, -41px -41px 82px #23262a;
+}
+.resume-button {
+    color: #ffffff;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #212428;
+    border: 1px solid #ff014f;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #ff014f, -6px -6px 12px #e94e7d;
+}
+
+.resume-button:hover {
+    border: 1px solid #e2658a;
+}
+
+.resume-button:active {
+    box-shadow: 4px 4px 12px #f33b72, -4px -4px 12px #ffffff;
+}
+
+.social-button {
+    border-radius: 0px;
+    background: #1f2125;
+    box-shadow: 6px 6px 12px #1b1c20, -6px -6px 12px #23262a;
+}
